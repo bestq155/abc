@@ -1,0 +1,355 @@
+{
+    "UIRequiredDeviceCapabilities": [
+        "armv7"
+    ],
+    "CFBundleURLTypes": [
+        {
+            "CFBundleTypeRole": "Viewer",
+            "CFBundleURLName": "RTSP",
+            "CFBundleURLSchemes": [
+                "rtsp"
+            ]
+        },
+        {
+            "CFBundleTypeRole": "Viewer",
+            "CFBundleURLName": "Multimedia Stream URL",
+            "CFBundleURLSchemes": [
+                "mms",
+                "mmsh"
+            ]
+        },
+        {
+            "CFBundleTypeRole": "Viewer",
+            "CFBundleURLName": "UDP URL",
+            "CFBundleURLSchemes": [
+                "udp"
+            ]
+        },
+        {
+            "CFBundleTypeRole": "Viewer",
+            "CFBundleURLName": "RTP URL",
+            "CFBundleURLSchemes": [
+                "rtp"
+            ]
+        },
+        {
+            "CFBundleTypeRole": "Viewer",
+            "CFBundleURLName": "RTMP",
+            "CFBundleURLSchemes": [
+                "rtmp"
+            ]
+        },
+        {
+            "CFBundleTypeRole": "Viewer",
+            "CFBundleURLName": "SFTP",
+            "CFBundleURLSchemes": [
+                "sftp"
+            ]
+        },
+        {
+            "CFBundleTypeRole": "Viewer",
+            "CFBundleURLName": "FTP",
+            "CFBundleURLSchemes": [
+                "ftp"
+            ]
+        },
+        {
+            "CFBundleTypeRole": "Viewer",
+            "CFBundleURLName": "SMB",
+            "CFBundleURLSchemes": [
+                "smb"
+            ]
+        },
+        {
+            "CFBundleTypeRole": "Viewer",
+            "CFBundleURLName": "VLC",
+            "CFBundleURLSchemes": [
+                "vlc"
+            ]
+        },
+        {
+            "CFBundleTypeRole": "Viewer",
+            "CFBundleURLName": "XFPLAY",
+            "CFBundleURLSchemes": [
+                "xfplay"
+            ]
+        },
+        {
+            "CFBundleTypeRole": "Viewer",
+            "CFBundleURLName": "MAGNET",
+            "CFBundleURLSchemes": [
+                "magnet"
+            ]
+        }
+    ],
+    "CFBundleInfoDictionaryVersion": "6.0",
+    "UISupportedInterfaceOrientations~ipad": [
+        "UIInterfaceOrientationPortrait",
+        "UIInterfaceOrientationPortraitUpsideDown",
+        "UIInterfaceOrientationLandscapeLeft",
+        "UIInterfaceOrientationLandscapeRight"
+    ],
+    "DTPlatformVersion": "7.1",
+    "CFBundleName": "Xfplay for iOS",
+    "DTSDKName": "iphoneos7.1",
+    "UIViewControllerBasedStatusBarAppearance": false,
+    "CFBundleIcons": {
+        "CFBundlePrimaryIcon": {
+            "CFBundleIconFiles": [
+                "AppIcon29x29",
+                "AppIcon40x40",
+                "AppIcon57x57",
+                "AppIcon60x60"
+            ],
+            "UIPrerenderedIcon": true
+        }
+    },
+    "UIStatusBarStyle": "UIStatusBarStyleLightContent",
+    "UIStatusBarTintParameters": {
+        "UINavigationBar": {
+            "Style": "UIBarStyleBlack",
+            "TintColor": {
+                "Green": 0.5,
+                "Red": 1,
+                "Blue": 0
+            },
+            "Translucent": true
+        }
+    },
+    "LSRequiresIPhoneOS": true,
+    "UIRequiresPersistentWiFi": true,
+    "CFBundleDisplayName": "Xfplay",
+    "UIBackgroundModes": [
+        "audio"
+    ],
+    "CFBundleDocumentTypes": [
+        {
+            "CFBundleTypeName": "Video Files",
+            "CFBundleTypeIconFiles": [],
+            "LSItemContentTypes": [
+                "public.audiovisual-content",
+                "public.movie",
+                "public.video",
+                "public.avi",
+                "com.microsoft.advanced-systems-format",
+                "com.microsoft.windows-media-wmv",
+                "public.3gpp",
+                "public.3gpp2",
+                "public.mpeg-4",
+                "public.mpeg",
+                "com.microsoft.windows-media-wm",
+                "com.microsoft.windows-media-wmv",
+                "com.real.realmedia",
+                "com.apple.quicktime-movie",
+                "public.mpeg4"
+            ]
+        },
+        {
+            "CFBundleTypeName": "Audio Files",
+            "CFBundleTypeIconFiles": [],
+            "LSItemContentTypes": [
+                "public.audio",
+                "public.mp3",
+                "public.mpeg-4-audio",
+                "public.ulaw-audio",
+                "public.aifc-audio",
+                "public.aiff-audio",
+                "com.microsoft.waveform-​audio",
+                "com.microsoft.windows-​media-wma",
+                "com.real.realaudio"
+            ]
+        }
+    ],
+    "DTSDKBuild": "11D167",
+    "CFBundleShortVersionString": "2.1.0",
+    "UISupportedInterfaceOrientations": [
+        "UIInterfaceOrientationPortrait",
+        "UIInterfaceOrientationLandscapeLeft",
+        "UIInterfaceOrientationLandscapeRight",
+        "UIInterfaceOrientationPortraitUpsideDown"
+    ],
+    "CFBundleSupportedPlatforms": [
+        "iPhoneOS"
+    ],
+    "BuildMachineOSBuild": "13E28",
+    "DTPlatformBuild": "11D167",
+    "UIFileSharingEnabled": true,
+    "DTXcodeBuild": "5B1008",
+    "CFBundleDevelopmentRegion": "en",
+    "CFBundlePackageType": "APPL",
+    "CFBundleVersion": "2.1.0",
+    "UIPrerenderedIcon": true,
+    "UTExportedTypeDeclarations": [
+        {
+            "UTTypeIdentifier": "org.xiph.ogv",
+            "UTTypeConformsTo": [
+                "public.movie"
+            ],
+            "UTTypeDescription": "Ogg Video",
+            "UTTypeTagSpecification": {
+                "public.mime-type": "video/ogg",
+                "public.filename-extension": "ogv"
+            }
+        },
+        {
+            "UTTypeIdentifier": "org.xiph.oga",
+            "UTTypeConformsTo": [
+                "public.audio"
+            ],
+            "UTTypeDescription": "Ogg Audio",
+            "UTTypeTagSpecification": {
+                "public.mime-type": "audio/ogg",
+                "public.filename-extension": [
+                    "ogg",
+                    "oga"
+                ]
+            }
+        },
+        {
+            "UTTypeIdentifier": "com.divx.divx",
+            "UTTypeConformsTo": [
+                "public.avi"
+            ],
+            "UTTypeDescription": "DivX",
+            "UTTypeTagSpecification": {
+                "public.filename-extension": "divx"
+            }
+        },
+        {
+            "UTTypeIdentifier": "org.matroska.mkv",
+            "UTTypeConformsTo": [
+                "public.movie"
+            ],
+            "UTTypeDescription": "Matroska",
+            "UTTypeTagSpecification": {
+                "public.mime-type": "video/x-matroska",
+                "public.filename-extension": "mkv"
+            }
+        },
+        {
+            "UTTypeIdentifier": "org.videolan.flac",
+            "UTTypeConformsTo": [
+                "public.audio"
+            ],
+            "UTTypeDescription": "Flac",
+            "UTTypeTagSpecification": {
+                "public.mime-type": "audio/x-flac",
+                "public.filename-extension": "flac"
+            }
+        },
+        {
+            "UTTypeIdentifier": "org.videolan.opus",
+            "UTTypeConformsTo": [
+                "public.audio"
+            ],
+            "UTTypeDescription": "OPUS",
+            "UTTypeTagSpecification": {
+                "public.mime-type": "audio/opus",
+                "public.filename-extension": "opus"
+            }
+        },
+        {
+            "UTTypeIdentifier": "org.videolan.mxf",
+            "UTTypeConformsTo": [
+                "public.video"
+            ],
+            "UTTypeDescription": "MXF",
+            "UTTypeTagSpecification": {
+                "public.mime-type": "application/mxf",
+                "public.filename-extension": "mxf"
+            }
+        },
+        {
+            "UTTypeIdentifier": "org.videolan.webm",
+            "UTTypeConformsTo": [
+                "public.video"
+            ],
+            "UTTypeDescription": "WebM",
+            "UTTypeTagSpecification": {
+                "public.mime-type": "video/webm",
+                "public.filename-extension": "webm"
+            }
+        },
+        {
+            "UTTypeDescription": "MXG",
+            "UTTypeConformsTo": [
+                "public.video"
+            ],
+            "UTTypeIdentifier": "org.videolan.mxg"
+        },
+        {
+            "UTTypeDescription": "CAF",
+            "UTTypeConformsTo": [
+                "public.audio"
+            ],
+            "UTTypeIdentifier": "org.videolan.caf"
+        },
+        {
+            "UTTypeDescription": "OMA",
+            "UTTypeConformsTo": [
+                "public.audio"
+            ],
+            "UTTypeIdentifier": "org.videolan.oma"
+        },
+        {
+            "UTTypeDescription": "w64",
+            "UTTypeConformsTo": [
+                "public.audio"
+            ],
+            "UTTypeIdentifier": "org.videolan.x64"
+        }
+    ],
+    "UILaunchImageFile": "LaunchImage",
+    "UILaunchImages": [
+        {
+            "UILaunchImageOrientation": "Portrait",
+            "UILaunchImageName": "LaunchImage-700",
+            "UILaunchImageSize": "{320, 480}",
+            "UILaunchImageMinimumOSVersion": "7.0"
+        },
+        {
+            "UILaunchImageOrientation": "Portrait",
+            "UILaunchImageName": "LaunchImage-700-568h",
+            "UILaunchImageSize": "{320, 568}",
+            "UILaunchImageMinimumOSVersion": "7.0"
+        },
+        {
+            "UILaunchImageOrientation": "Portrait",
+            "UILaunchImageName": "LaunchImage-700-Portrait",
+            "UILaunchImageSize": "{768, 1024}",
+            "UILaunchImageMinimumOSVersion": "7.0"
+        },
+        {
+            "UILaunchImageOrientation": "Landscape",
+            "UILaunchImageName": "LaunchImage-700-Landscape",
+            "UILaunchImageSize": "{768, 1024}",
+            "UILaunchImageMinimumOSVersion": "7.0"
+        }
+    ],
+    "MinimumOSVersion": "6.1",
+    "UIDeviceFamily": [
+        1,
+        2
+    ],
+    "CFBundleIdentifier": "com.xfplay.play",
+    "DTXcode": "0511",
+    "CFBundleExecutable": "Xfplay for iOS",
+    "CFBundleIcons~ipad": {
+        "CFBundlePrimaryIcon": {
+            "CFBundleIconFiles": [
+                "AppIcon29x29",
+                "AppIcon40x40",
+                "AppIcon57x57",
+                "AppIcon60x60",
+                "AppIcon50x50",
+                "AppIcon72x72",
+                "AppIcon76x76"
+            ],
+            "UIPrerenderedIcon": true
+        }
+    },
+    "CFBundleSignature": "????",
+    "DTPlatformName": "iphoneos",
+    "CFBundleResourceSpecification": "ResourceRules.plist",
+    "DTCompiler": "com.apple.compilers.llvm.clang.1_0"
+}
